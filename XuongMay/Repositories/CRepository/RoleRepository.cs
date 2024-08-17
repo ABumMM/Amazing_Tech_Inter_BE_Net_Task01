@@ -1,13 +1,9 @@
 ﻿using XuongMay.Entity;
 using Microsoft.EntityFrameworkCore;
+using XuongMay.Repositories.IRepository;
 
-namespace XuongMay.Repositories
+namespace XuongMay.Repositories.CRepository
 {
-    public interface IRoleRepository
-    {
-        Task<Role?> GetRoleByNameAsync(string roleName);
-    }
-
     public class RoleRepository : IRoleRepository
     {
         private readonly XuongmaybeContext _context;

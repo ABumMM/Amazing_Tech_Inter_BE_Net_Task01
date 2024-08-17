@@ -1,14 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using XuongMay.Entity;
+using XuongMay.Repositories.IRepository;
 
-namespace XuongMay.Repositories
+namespace XuongMay.Repositories.CRepository
 {
-    public interface IUserRepository
-    {
-        Task AddUserAsync(User user);
-        Task<User?> GetUserByEmailAsync(string email);
-    }
-
     public class UserRepository : IUserRepository
     {
         private readonly XuongmaybeContext _context;

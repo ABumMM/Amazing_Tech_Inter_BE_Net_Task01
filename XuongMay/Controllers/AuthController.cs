@@ -1,7 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using XuongMay.Dtos.Requests;
 using XuongMay.Dtos.Responses;
-using XuongMay.Services;
+using XuongMay.Services.CServices;
+using XuongMay.Services.IServices;
 
 namespace XuongMay.Controllers
 {

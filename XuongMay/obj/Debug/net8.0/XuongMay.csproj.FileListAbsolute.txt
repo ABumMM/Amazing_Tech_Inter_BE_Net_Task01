@@ -136,3 +136,4 @@ D:\OneDrive\Máy tính\ThucTapIT\Task01\XuongMay\XuongMay\bin\Debug\net8.0\Swash
 D:\OneDrive\Máy tính\ThucTapIT\Task01\XuongMay\XuongMay\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\OneDrive\Máy tính\ThucTapIT\Task01\XuongMay\XuongMay\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\OneDrive\Máy tính\ThucTapIT\Task01\XuongMay\XuongMay\obj\Debug\net8.0\XuongMay.MvcApplicationPartsAssemblyInfo.cs
+D:\OneDrive\Máy tính\ThucTapIT\Task01\XuongMay\XuongMay\obj\Debug\net8.0\XuongMay.sourcelink.json

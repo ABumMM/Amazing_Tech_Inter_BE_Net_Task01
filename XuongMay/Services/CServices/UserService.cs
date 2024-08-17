@@ -1,22 +1,18 @@
 ﻿using XuongMay.Dtos.Requests;
 using XuongMay.Dtos.Responses;
 using XuongMay.Entity;
-using XuongMay.Repositories;
 using BCrypt.Net;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using XuongMay.Repositories.CRepository;
+using XuongMay.Services.IServices;
+using XuongMay.Repositories.IRepository;
 
-namespace XuongMay.Services
+namespace XuongMay.Services.CServices
 {
-    public interface IUserService
-    {
-        Task<UserResponse?> AuthenticateAsync(LoginRequest request);
-        Task<RegisterResponse?> RegisterAsync(RegisterRequest request);
-    }
-
     public class UserService : IUserService
     {
         private readonly IUserRepository _userRepository;
@@ -64,7 +60,7 @@ namespace XuongMay.Services
 
             return new UserResponse
             {
-                Id = user.IdUser.ToString(),
+                Id = user.IdUser.ToString(), // Ép kiểu
                 Email = user.Email,
                 Token = tokenString
             };
@@ -90,7 +86,7 @@ namespace XuongMay.Services
             {
                 IdUser = Guid.NewGuid(), // Thêm IdUser
                 Email = request.Email,
-                Password = hashedPassword,
+                Password = hashedPassword, // Mã hóa mật khẩu
                 IdRole = role.IdRole,
                 CreateAt = DateTime.UtcNow
             };
@@ -99,7 +95,7 @@ namespace XuongMay.Services
 
             return new RegisterResponse
             {
-                Id = user.IdUser.ToString(),
+                Id = user.IdUser.ToString(), // Ép kiểu
                 Email = user.Email,
                 Role = role.Name
             };

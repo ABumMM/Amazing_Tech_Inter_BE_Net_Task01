@@ -3,92 +3,64 @@
   "WorkspaceRootPath": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\onedrive\\m\u00E1y t\u00EDnh\\thuctapit\\task01\\xuongmay\\xuongmay\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\onedrive\\m\u00E1y t\u00EDnh\\thuctapit\\task01\\xuongmay\\xuongmay\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\onedrive\\m\u00E1y t\u00EDnh\\thuctapit\\task01\\xuongmay\\xuongmay\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\onedrive\\m\u00E1y t\u00EDnh\\thuctapit\\task01\\xuongmay\\xuongmay\\services\\cservices\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\services\\cservices\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\onedrive\\m\u00E1y t\u00EDnh\\thuctapit\\task01\\xuongmay\\xuongmay\\configuration\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\configuration\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\onedrive\\m\u00E1y t\u00EDnh\\thuctapit\\task01\\xuongmay\\xuongmay\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\onedrive\\m\u00E1y t\u00EDnh\\thuctapit\\task01\\xuongmay\\xuongmay\\services\\iservices\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\services\\iservices\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\onedrive\\m\u00E1y t\u00EDnh\\thuctapit\\task01\\xuongmay\\xuongmay\\services\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\services\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\onedrive\\m\u00E1y t\u00EDnh\\thuctapit\\task01\\xuongmay\\xuongmay\\repositories\\crepository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\repositories\\crepository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\onedrive\\m\u00E1y t\u00EDnh\\thuctapit\\task01\\xuongmay\\xuongmay\\repositories\\irepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\repositories\\irepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\onedrive\\m\u00E1y t\u00EDnh\\thuctapit\\task01\\xuongmay\\xuongmay\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\onedrive\\m\u00E1y t\u00EDnh\\thuctapit\\task01\\xuongmay\\xuongmay\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\onedrive\\m\u00E1y t\u00EDnh\\thuctapit\\task01\\xuongmay\\xuongmay\\dtos\\responses\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\dtos\\responses\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\onedrive\\m\u00E1y t\u00EDnh\\thuctapit\\task01\\xuongmay\\xuongmay\\dtos\\responses\\registerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\dtos\\responses\\registerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\onedrive\\m\u00E1y t\u00EDnh\\thuctapit\\task01\\xuongmay\\xuongmay\\dtos\\responses\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\dtos\\responses\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\onedrive\\m\u00E1y t\u00EDnh\\thuctapit\\task01\\xuongmay\\xuongmay\\dtos\\requests\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\dtos\\requests\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\onedrive\\m\u00E1y t\u00EDnh\\thuctapit\\task01\\xuongmay\\xuongmay\\dtos\\requests\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\dtos\\requests\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\onedrive\\m\u00E1y t\u00EDnh\\thuctapit\\task01\\xuongmay\\xuongmay\\entity\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\entity\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\onedrive\\m\u00E1y t\u00EDnh\\thuctapit\\task01\\xuongmay\\xuongmay\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\onedrive\\m\u00E1y t\u00EDnh\\thuctapit\\task01\\xuongmay\\xuongmay\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\onedrive\\m\u00E1y t\u00EDnh\\thuctapit\\task01\\xuongmay\\xuongmay\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\onedrive\\m\u00E1y t\u00EDnh\\thuctapit\\task01\\xuongmay\\xuongmay\\dtos\\responses\\categoryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\dtos\\responses\\categoryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\onedrive\\m\u00E1y t\u00EDnh\\thuctapit\\task01\\xuongmay\\xuongmay\\xuongmay.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\xuongmay.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\onedrive\\m\u00E1y t\u00EDnh\\thuctapit\\task01\\xuongmay\\xuongmay\\dtos\\requests\\categoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\dtos\\requests\\categoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\onedrive\\m\u00E1y t\u00EDnh\\thuctapit\\task01\\xuongmay\\xuongmay\\exceptions\\loggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\exceptions\\loggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\onedrive\\m\u00E1y t\u00EDnh\\thuctapit\\task01\\xuongmay\\xuongmay\\exceptions\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\exceptions\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\onedrive\\m\u00E1y t\u00EDnh\\thuctapit\\task01\\xuongmay\\xuongmay\\dtos\\responses\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\dtos\\responses\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\onedrive\\m\u00E1y t\u00EDnh\\thuctapit\\task01\\xuongmay\\xuongmay\\entity\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\entity\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\onedrive\\m\u00E1y t\u00EDnh\\thuctapit\\task01\\xuongmay\\xuongmay\\entity\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\entity\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\onedrive\\m\u00E1y t\u00EDnh\\thuctapit\\task01\\xuongmay\\xuongmay\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\onedrive\\m\u00E1y t\u00EDnh\\thuctapit\\task01\\xuongmay\\xuongmay\\entity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\entity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\onedrive\\m\u00E1y t\u00EDnh\\thuctapit\\task01\\xuongmay\\xuongmay\\entity\\xuongmaybecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\entity\\xuongmaybecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\onedrive\\m\u00E1y t\u00EDnh\\thuctapit\\task01\\xuongmay\\xuongmay\\dtos\\responses\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\dtos\\responses\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -126,288 +98,197 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RoleRepository.cs",
-              "DocumentMoniker": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Repositories\\RoleRepository.cs",
-              "RelativeDocumentMoniker": "XuongMay\\Repositories\\RoleRepository.cs",
-              "ToolTip": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Repositories\\RoleRepository.cs",
-              "RelativeToolTip": "XuongMay\\Repositories\\RoleRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAowBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T10:02:54.136Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RegisterResponse.cs",
-              "DocumentMoniker": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Dtos\\Responses\\RegisterResponse.cs",
-              "RelativeDocumentMoniker": "XuongMay\\Dtos\\Responses\\RegisterResponse.cs",
-              "ToolTip": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Dtos\\Responses\\RegisterResponse.cs",
-              "RelativeToolTip": "XuongMay\\Dtos\\Responses\\RegisterResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T10:01:52.561Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RegisterRequest.cs",
-              "DocumentMoniker": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Dtos\\Requests\\RegisterRequest.cs",
-              "RelativeDocumentMoniker": "XuongMay\\Dtos\\Requests\\RegisterRequest.cs",
-              "ToolTip": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Dtos\\Requests\\RegisterRequest.cs",
-              "RelativeToolTip": "XuongMay\\Dtos\\Requests\\RegisterRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T10:01:24.03Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\appsettings.json",
-              "RelativeDocumentMoniker": "XuongMay\\appsettings.json",
-              "ToolTip": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\appsettings.json",
-              "RelativeToolTip": "XuongMay\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-16T08:42:21.217Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "XuongMay\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Properties\\launchSettings.json",
-              "RelativeToolTip": "XuongMay\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAkwBkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-16T09:54:16.08Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "XuongMay.http",
-              "DocumentMoniker": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\XuongMay.http",
-              "RelativeDocumentMoniker": "XuongMay\\XuongMay.http",
-              "ToolTip": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\XuongMay.http",
-              "RelativeToolTip": "XuongMay\\XuongMay.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-08-16T09:49:18.177Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "XuongMay\\Repositories\\UserRepository.cs",
-              "ToolTip": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "XuongMay\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAkwBgAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T09:26:38.232Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserResponse.cs",
-              "DocumentMoniker": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Dtos\\Responses\\UserResponse.cs",
-              "RelativeDocumentMoniker": "XuongMay\\Dtos\\Responses\\UserResponse.cs",
-              "ToolTip": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Dtos\\Responses\\UserResponse.cs",
-              "RelativeToolTip": "XuongMay\\Dtos\\Responses\\UserResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T09:25:49.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "LoginRequest.cs",
-              "DocumentMoniker": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Dtos\\Requests\\LoginRequest.cs",
-              "RelativeDocumentMoniker": "XuongMay\\Dtos\\Requests\\LoginRequest.cs",
-              "ToolTip": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Dtos\\Requests\\LoginRequest.cs",
-              "RelativeToolTip": "XuongMay\\Dtos\\Requests\\LoginRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T09:24:47.955Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ApiResponse.cs",
-              "DocumentMoniker": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Dtos\\Responses\\ApiResponse.cs",
-              "RelativeDocumentMoniker": "XuongMay\\Dtos\\Responses\\ApiResponse.cs",
-              "ToolTip": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Dtos\\Responses\\ApiResponse.cs",
-              "RelativeToolTip": "XuongMay\\Dtos\\Responses\\ApiResponse.cs",
+              "Title": "CategoryRequest.cs",
+              "DocumentMoniker": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Dtos\\Requests\\CategoryRequest.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Dtos\\Requests\\CategoryRequest.cs",
+              "ToolTip": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Dtos\\Requests\\CategoryRequest.cs",
+              "RelativeToolTip": "XuongMay\\Dtos\\Requests\\CategoryRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T09:24:10.957Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Configuration\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "XuongMay\\Configuration\\DependencyInjection.cs",
-              "ToolTip": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Configuration\\DependencyInjection.cs",
-              "RelativeToolTip": "XuongMay\\Configuration\\DependencyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T09:23:31.479Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "XuongMay\\Services\\UserService.cs",
-              "ToolTip": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Services\\UserService.cs",
-              "RelativeToolTip": "XuongMay\\Services\\UserService.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAwwGMAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T09:21:29.076Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "XuongMay\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "XuongMay\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAwwDYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T08:51:52.223Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "LoggingMiddleware.cs",
-              "DocumentMoniker": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Exceptions\\LoggingMiddleware.cs",
-              "RelativeDocumentMoniker": "XuongMay\\Exceptions\\LoggingMiddleware.cs",
-              "ToolTip": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Exceptions\\LoggingMiddleware.cs",
-              "RelativeToolTip": "XuongMay\\Exceptions\\LoggingMiddleware.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T08:51:41.941Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ExceptionMiddleware.cs",
-              "DocumentMoniker": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Exceptions\\ExceptionMiddleware.cs",
-              "RelativeDocumentMoniker": "XuongMay\\Exceptions\\ExceptionMiddleware.cs",
-              "ToolTip": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Exceptions\\ExceptionMiddleware.cs",
-              "RelativeToolTip": "XuongMay\\Exceptions\\ExceptionMiddleware.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T08:51:29.696Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Order.cs",
-              "DocumentMoniker": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Entity\\Order.cs",
-              "RelativeDocumentMoniker": "XuongMay\\Entity\\Order.cs",
-              "ToolTip": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Entity\\Order.cs",
-              "RelativeToolTip": "XuongMay\\Entity\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T08:48:06.461Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Category.cs",
-              "DocumentMoniker": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Entity\\Category.cs",
-              "RelativeDocumentMoniker": "XuongMay\\Entity\\Category.cs",
-              "ToolTip": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Entity\\Category.cs",
-              "RelativeToolTip": "XuongMay\\Entity\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T08:48:05.884Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Entity\\Product.cs",
-              "RelativeDocumentMoniker": "XuongMay\\Entity\\Product.cs",
-              "ToolTip": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Entity\\Product.cs",
-              "RelativeToolTip": "XuongMay\\Entity\\Product.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAiwB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T08:48:02.762Z",
+              "WhenOpened": "2024-08-17T05:12:37.067Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Role.cs",
-              "DocumentMoniker": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Entity\\Role.cs",
-              "RelativeDocumentMoniker": "XuongMay\\Entity\\Role.cs",
-              "ToolTip": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Entity\\Role.cs",
-              "RelativeToolTip": "XuongMay\\Entity\\Role.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Title": "UserResponse.cs",
+              "DocumentMoniker": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Dtos\\Responses\\UserResponse.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Dtos\\Responses\\UserResponse.cs",
+              "ToolTip": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Dtos\\Responses\\UserResponse.cs",
+              "RelativeToolTip": "XuongMay\\Dtos\\Responses\\UserResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T08:47:59.203Z",
+              "WhenOpened": "2024-08-17T05:12:29.431Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Entity\\User.cs",
-              "RelativeDocumentMoniker": "XuongMay\\Entity\\User.cs",
-              "ToolTip": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Entity\\User.cs",
-              "RelativeToolTip": "XuongMay\\Entity\\User.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAA6wB0AAAAAAAAAAAAAAA==",
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Entity\\Category.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Entity\\Category.cs",
+              "ToolTip": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Entity\\Category.cs*",
+              "RelativeToolTip": "XuongMay\\Entity\\Category.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T08:47:53.66Z",
+              "WhenOpened": "2024-08-17T05:12:23.981Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "XuongmaybeContext.cs",
-              "DocumentMoniker": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Entity\\XuongmaybeContext.cs",
-              "RelativeDocumentMoniker": "XuongMay\\Entity\\XuongmaybeContext.cs",
-              "ToolTip": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Entity\\XuongmaybeContext.cs",
-              "RelativeToolTip": "XuongMay\\Entity\\XuongmaybeContext.cs",
-              "ViewState": "AgIAAJYAAAAAAAAAAAAowLQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "CategoryResponse.cs",
+              "DocumentMoniker": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Dtos\\Responses\\CategoryResponse.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Dtos\\Responses\\CategoryResponse.cs",
+              "ToolTip": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Dtos\\Responses\\CategoryResponse.cs",
+              "RelativeToolTip": "XuongMay\\Dtos\\Responses\\CategoryResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T08:43:42.038Z",
+              "WhenOpened": "2024-08-17T05:10:46.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "XuongMay\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T05:08:01.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Configuration\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Configuration\\DependencyInjection.cs",
+              "ToolTip": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Configuration\\DependencyInjection.cs",
+              "RelativeToolTip": "XuongMay\\Configuration\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T05:05:54.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Repositories\\IRepository\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Repositories\\IRepository\\ICategoryRepository.cs",
+              "ToolTip": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Repositories\\IRepository\\ICategoryRepository.cs",
+              "RelativeToolTip": "XuongMay\\Repositories\\IRepository\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T05:05:14.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Repositories\\CRepository\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Repositories\\CRepository\\CategoryRepository.cs",
+              "ToolTip": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Repositories\\CRepository\\CategoryRepository.cs",
+              "RelativeToolTip": "XuongMay\\Repositories\\CRepository\\CategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T05:05:10.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Controllers\\CategoryController.cs*",
+              "RelativeToolTip": "XuongMay\\Controllers\\CategoryController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T05:00:32.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Services\\IServices\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Services\\IServices\\ICategoryService.cs",
+              "ToolTip": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Services\\IServices\\ICategoryService.cs",
+              "RelativeToolTip": "XuongMay\\Services\\IServices\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T05:00:19.807Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Services\\IServices\\IUserService.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Services\\IServices\\IUserService.cs",
+              "ToolTip": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Services\\IServices\\IUserService.cs",
+              "RelativeToolTip": "XuongMay\\Services\\IServices\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T05:00:15.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Services\\CServices\\CategoryService.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Services\\CServices\\CategoryService.cs",
+              "ToolTip": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Services\\CServices\\CategoryService.cs",
+              "RelativeToolTip": "XuongMay\\Services\\CServices\\CategoryService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T04:59:52.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\appsettings.json",
+              "RelativeDocumentMoniker": "XuongMay\\appsettings.json",
+              "ToolTip": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\appsettings.json",
+              "RelativeToolTip": "XuongMay\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-17T04:59:38.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Program.cs",
               "RelativeDocumentMoniker": "XuongMay\\Program.cs",
               "ToolTip": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Program.cs",
               "RelativeToolTip": "XuongMay\\Program.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAUwEsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T08:42:19.797Z",
+              "WhenOpened": "2024-08-17T04:59:12.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Dtos\\Responses\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Dtos\\Responses\\ApiResponse.cs",
+              "ToolTip": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Dtos\\Responses\\ApiResponse.cs",
+              "RelativeToolTip": "XuongMay\\Dtos\\Responses\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T04:59:06.837Z",
               "EditorCaption": ""
             }
           ]

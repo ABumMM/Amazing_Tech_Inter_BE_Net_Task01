@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "+nku4i+G57thFay9bvXWSrgiCkG9Tc0XNEP0833lDkM=",
+  "Hash": "+wEMDNZevF3Xxuf+UHEuiDULIyXGyGJqqvfllEkeAZw=",
   "Source": "XuongMay",
   "BasePath": "_content/XuongMay",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

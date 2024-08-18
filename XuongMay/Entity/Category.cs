@@ -20,4 +20,14 @@ public partial class Category
     {
         throw new NotImplementedException();
     }
+
+    public static implicit operator Category(Product v)
+    {
+        throw new NotImplementedException();
+    }
+
+    public static implicit operator Category(List<ProductResponse> v)
+    {
+        throw new NotImplementedException();
+    }
 }

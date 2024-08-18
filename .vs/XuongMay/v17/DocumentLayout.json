@@ -1,7 +1,124 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\source\\amazing_tech_intern_be_net_task01\\xuongmay\\repositories\\irepository\\iproductreponsity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\repositories\\irepository\\iproductreponsity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\source\\amazing_tech_intern_be_net_task01\\xuongmay\\services\\cservices\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\services\\cservices\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\source\\amazing_tech_intern_be_net_task01\\xuongmay\\repositories\\crepository\\productresposity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\repositories\\crepository\\productresposity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\source\\amazing_tech_intern_be_net_task01\\xuongmay\\repositories\\crepository\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\repositories\\crepository\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\source\\amazing_tech_intern_be_net_task01\\xuongmay\\dtos\\requests\\productrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\dtos\\requests\\productrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\source\\amazing_tech_intern_be_net_task01\\xuongmay\\dtos\\requests\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\dtos\\requests\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\source\\amazing_tech_intern_be_net_task01\\xuongmay\\dtos\\responses\\categoryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\dtos\\responses\\categoryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\source\\amazing_tech_intern_be_net_task01\\xuongmay\\services\\iservices\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\services\\iservices\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\source\\amazing_tech_intern_be_net_task01\\xuongmay\\entity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\entity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\source\\amazing_tech_intern_be_net_task01\\xuongmay\\dtos\\responses\\productresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\dtos\\responses\\productresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\source\\amazing_tech_intern_be_net_task01\\xuongmay\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\source\\amazing_tech_intern_be_net_task01\\xuongmay\\services\\cservices\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\services\\cservices\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\source\\amazing_tech_intern_be_net_task01\\xuongmay\\services\\cservices\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\services\\cservices\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\source\\amazing_tech_intern_be_net_task01\\xuongmay\\dtos\\requests\\categoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\dtos\\requests\\categoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\source\\amazing_tech_intern_be_net_task01\\xuongmay\\services\\iservices\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\services\\iservices\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\source\\amazing_tech_intern_be_net_task01\\xuongmay\\repositories\\irepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\repositories\\irepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\source\\amazing_tech_intern_be_net_task01\\xuongmay\\repositories\\crepository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\repositories\\crepository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\source\\amazing_tech_intern_be_net_task01\\xuongmay\\services\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\services\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\source\\amazing_tech_intern_be_net_task01\\xuongmay\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\source\\amazing_tech_intern_be_net_task01\\xuongmay\\configuration\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\configuration\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\source\\amazing_tech_intern_be_net_task01\\xuongmay\\repositories\\crepository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\repositories\\crepository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\source\\amazing_tech_intern_be_net_task01\\xuongmay\\dtos\\responses\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\dtos\\responses\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\source\\amazing_tech_intern_be_net_task01\\xuongmay\\dtos\\responses\\registerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\dtos\\responses\\registerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\source\\amazing_tech_intern_be_net_task01\\xuongmay\\repositories\\irepository\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\repositories\\irepository\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\source\\amazing_tech_intern_be_net_task01\\xuongmay\\dtos\\requests\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\dtos\\requests\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\source\\amazing_tech_intern_be_net_task01\\xuongmay\\dtos\\responses\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\dtos\\responses\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\source\\amazing_tech_intern_be_net_task01\\xuongmay\\exceptions\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\exceptions\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\source\\amazing_tech_intern_be_net_task01\\xuongmay\\entity\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\entity\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|d:\\source\\amazing_tech_intern_be_net_task01\\xuongmay\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5BEDB7-7965-4F64-BDC5-C33DC256D202}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +126,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -25,7 +142,11 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
@@ -33,15 +154,367 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IProductReponsity.cs",
+              "DocumentMoniker": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Repositories\\IRepository\\IProductReponsity.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Repositories\\IRepository\\IProductReponsity.cs",
+              "ToolTip": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Repositories\\IRepository\\IProductReponsity.cs",
+              "RelativeToolTip": "XuongMay\\Repositories\\IRepository\\IProductReponsity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T13:15:50.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductResposity.cs",
+              "DocumentMoniker": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Repositories\\CRepository\\ProductResposity.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Repositories\\CRepository\\ProductResposity.cs",
+              "ToolTip": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Repositories\\CRepository\\ProductResposity.cs",
+              "RelativeToolTip": "XuongMay\\Repositories\\CRepository\\ProductResposity.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABQAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T09:41:11.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RoleRepository.cs",
+              "DocumentMoniker": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Repositories\\CRepository\\RoleRepository.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Repositories\\CRepository\\RoleRepository.cs",
+              "ToolTip": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Repositories\\CRepository\\RoleRepository.cs",
+              "RelativeToolTip": "XuongMay\\Repositories\\CRepository\\RoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T13:09:43.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Services\\CServices\\ProductService.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Services\\CServices\\ProductService.cs",
+              "ToolTip": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Services\\CServices\\ProductService.cs",
+              "RelativeToolTip": "XuongMay\\Services\\CServices\\ProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T16:13:46.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductRequest.cs",
+              "DocumentMoniker": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Dtos\\Requests\\ProductRequest.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Dtos\\Requests\\ProductRequest.cs",
+              "ToolTip": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Dtos\\Requests\\ProductRequest.cs",
+              "RelativeToolTip": "XuongMay\\Dtos\\Requests\\ProductRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T09:04:03.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Dtos\\Requests\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Dtos\\Requests\\LoginRequest.cs",
+              "ToolTip": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Dtos\\Requests\\LoginRequest.cs",
+              "RelativeToolTip": "XuongMay\\Dtos\\Requests\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T07:35:49.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoryResponse.cs",
+              "DocumentMoniker": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Dtos\\Responses\\CategoryResponse.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Dtos\\Responses\\CategoryResponse.cs",
+              "ToolTip": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Dtos\\Responses\\CategoryResponse.cs",
+              "RelativeToolTip": "XuongMay\\Dtos\\Responses\\CategoryResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T07:35:55.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Services\\IServices\\IProductService.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Services\\IServices\\IProductService.cs",
+              "ToolTip": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Services\\IServices\\IProductService.cs",
+              "RelativeToolTip": "XuongMay\\Services\\IServices\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T16:08:20.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Entity\\Product.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Entity\\Product.cs",
+              "ToolTip": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Entity\\Product.cs",
+              "RelativeToolTip": "XuongMay\\Entity\\Product.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T07:36:14.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductResponse.cs",
+              "DocumentMoniker": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Dtos\\Responses\\ProductResponse.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Dtos\\Responses\\ProductResponse.cs",
+              "ToolTip": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Dtos\\Responses\\ProductResponse.cs",
+              "RelativeToolTip": "XuongMay\\Dtos\\Responses\\ProductResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T16:30:16.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "XuongMay\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAuwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T09:03:06.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Services\\CServices\\CategoryService.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Services\\CServices\\CategoryService.cs",
+              "ToolTip": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Services\\CServices\\CategoryService.cs",
+              "RelativeToolTip": "XuongMay\\Services\\CServices\\CategoryService.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAB4AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T15:54:28.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Services\\CServices\\UserService.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Services\\CServices\\UserService.cs",
+              "ToolTip": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Services\\CServices\\UserService.cs",
+              "RelativeToolTip": "XuongMay\\Services\\CServices\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T03:01:46.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CategoryRequest.cs",
+              "DocumentMoniker": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Dtos\\Requests\\CategoryRequest.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Dtos\\Requests\\CategoryRequest.cs",
+              "ToolTip": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Dtos\\Requests\\CategoryRequest.cs",
+              "RelativeToolTip": "XuongMay\\Dtos\\Requests\\CategoryRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T07:35:46.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Services\\IServices\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Services\\IServices\\ICategoryService.cs",
+              "ToolTip": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Services\\IServices\\ICategoryService.cs",
+              "RelativeToolTip": "XuongMay\\Services\\IServices\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T17:18:45.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Repositories\\IRepository\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Repositories\\IRepository\\ICategoryRepository.cs",
+              "ToolTip": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Repositories\\IRepository\\ICategoryRepository.cs",
+              "RelativeToolTip": "XuongMay\\Repositories\\IRepository\\ICategoryRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T07:39:45.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Repositories\\CRepository\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Repositories\\CRepository\\CategoryRepository.cs",
+              "ToolTip": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Repositories\\CRepository\\CategoryRepository.cs",
+              "RelativeToolTip": "XuongMay\\Repositories\\CRepository\\CategoryRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T07:39:43.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Services\\IServices\\IUserService.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Services\\IServices\\IUserService.cs",
+              "ToolTip": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Services\\IServices\\IUserService.cs",
+              "RelativeToolTip": "XuongMay\\Services\\IServices\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T17:28:21.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "XuongMay\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T07:35:15.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Configuration\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Configuration\\DependencyInjection.cs",
+              "ToolTip": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Configuration\\DependencyInjection.cs",
+              "RelativeToolTip": "XuongMay\\Configuration\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwA4AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T15:53:23.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Repositories\\CRepository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Repositories\\CRepository\\UserRepository.cs",
+              "ToolTip": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Repositories\\CRepository\\UserRepository.cs",
+              "RelativeToolTip": "XuongMay\\Repositories\\CRepository\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T14:55:24.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserResponse.cs",
+              "DocumentMoniker": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Dtos\\Responses\\UserResponse.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Dtos\\Responses\\UserResponse.cs",
+              "ToolTip": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Dtos\\Responses\\UserResponse.cs",
+              "RelativeToolTip": "XuongMay\\Dtos\\Responses\\UserResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T07:35:59.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RegisterResponse.cs",
+              "DocumentMoniker": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Dtos\\Responses\\RegisterResponse.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Dtos\\Responses\\RegisterResponse.cs",
+              "ToolTip": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Dtos\\Responses\\RegisterResponse.cs",
+              "RelativeToolTip": "XuongMay\\Dtos\\Responses\\RegisterResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T07:35:58.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IRoleRepository.cs",
+              "DocumentMoniker": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Repositories\\IRepository\\IRoleRepository.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Repositories\\IRepository\\IRoleRepository.cs",
+              "ToolTip": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Repositories\\IRepository\\IRoleRepository.cs",
+              "RelativeToolTip": "XuongMay\\Repositories\\IRepository\\IRoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T13:12:01.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Dtos\\Requests\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Dtos\\Requests\\RegisterRequest.cs",
+              "ToolTip": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Dtos\\Requests\\RegisterRequest.cs",
+              "RelativeToolTip": "XuongMay\\Dtos\\Requests\\RegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T07:35:51.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Exceptions\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Exceptions\\ExceptionMiddleware.cs",
+              "ToolTip": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Exceptions\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "XuongMay\\Exceptions\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T07:36:20.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Entity\\Category.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Entity\\Category.cs",
+              "ToolTip": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Entity\\Category.cs",
+              "RelativeToolTip": "XuongMay\\Entity\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T07:36:02.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Dtos\\Responses\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Dtos\\Responses\\ApiResponse.cs",
+              "ToolTip": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Dtos\\Responses\\ApiResponse.cs",
+              "RelativeToolTip": "XuongMay\\Dtos\\Responses\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T07:35:53.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "XuongMay\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Source\\Amazing_Tech_Intern_BE_Net_Task01\\XuongMay\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "XuongMay\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T07:35:12.138Z"
             }
           ]
         }

@@ -10,5 +10,7 @@ namespace XuongMay.Services.IServices
         Task<ApiResponse> UpdateAsync(Guid id, ProductRequest request);
         Task<ApiResponse> DeleteAsync(Guid id);
         Task<ApiResponse> GetAllAsync();
+
+       
     }
 }

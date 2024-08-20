@@ -26,7 +26,4 @@ public partial class Product
     public virtual Category? IdCategoryNavigation { get; set; }
 
     public virtual User? IdUserNavigation { get; set; }
-    public object SlugPro { get; internal set; }
-    public object NamePro { get; internal set; }
-    public DateTime UpdateAt { get; internal set; }
 }

@@ -40,7 +40,7 @@ namespace XuongMay.Services.CServices
             var key = jwtSettings.GetValue<string>("Secret");
             if (string.IsNullOrEmpty(key))
             {
-                throw new InvalidOperationException("JWT Secret is not configured.");
+                throw new InvalidOperationException("JWT Secret chưa được cấu hình.");
             }
 
             var keyBytes = Encoding.ASCII.GetBytes(key);
@@ -71,13 +71,13 @@ namespace XuongMay.Services.CServices
             var existingUser = await _userRepository.GetUserByEmailAsync(request.Email);
             if (existingUser != null)
             {
-                throw new InvalidOperationException("User already exists.");
+                throw new InvalidOperationException("Người dùng đã tồn tại.");
             }
 
             var role = await _roleRepository.GetRoleByNameAsync(request.Role);
             if (role == null)
             {
-                throw new InvalidOperationException("Role not found.");
+                throw new InvalidOperationException("Quyền không tồn tại.");
             }
 
             var hashedPassword = BCrypt.Net.BCrypt.HashPassword(request.Password);
@@ -99,6 +99,39 @@ namespace XuongMay.Services.CServices
                 Email = user.Email,
                 Role = role.Name
             };
+        }
+
+        public async Task<IEnumerable<UserResponse>> GetAllUsersAsync()
+        {
+            var users = await _userRepository.GetAllUsersAsync();
+            return users.Select(user => new UserResponse
+            {
+                Id = user.IdUser.ToString(),
+                Email = user.Email,
+                Token = "" // Không cần token ở đây
+            });
+        }
+
+        public async Task<UserResponse?> GetUserByIdAsync(Guid id)
+        {
+            var user = await _userRepository.GetUserByIdAsync(id);
+            if (user == null) return null;
+
+            return new UserResponse
+            {
+                Id = user.IdUser.ToString(),
+                Email = user.Email,
+                Token = "" // Không cần token ở đây
+            };
+        }
+
+        public async Task<bool> DeleteUserAsync(Guid id)
+        {
+            var user = await _userRepository.GetUserByIdAsync(id);
+            if (user == null) return false;
+
+            await _userRepository.DeleteUserAsync(user);
+            return true;
         }
     }
 }

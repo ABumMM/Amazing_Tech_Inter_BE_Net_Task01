@@ -27,12 +27,14 @@ namespace XuongMay.Controllers
                 return Unauthorized(new ApiResponse
                 {
                     Success = false,
-                    Message = "Invalid email or password."
+                    Message = "Email hoặc mật khẩu không hợp lệ."
                 });
             }
 
             return Ok(response);
         }
+
+
 
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] RegisterRequest request)
@@ -51,5 +53,49 @@ namespace XuongMay.Controllers
                 });
             }
         }
+
+        [HttpGet("AllUsers")]
+        public async Task<IActionResult> GetAllUsers()
+        {
+            var users = await _userService.GetAllUsersAsync();
+            return Ok(users);
+        }
+
+        [HttpGet("user/{id}")]
+        public async Task<IActionResult> GetUserById(Guid id)
+        {
+            var user = await _userService.GetUserByIdAsync(id);
+            if (user == null)
+            {
+                return NotFound(new ApiResponse
+                {
+                    Success = false,
+                    Message = "Không tìm thấy người dùng."
+                });
+            }
+
+            return Ok(user);
+        }
+
+        [HttpDelete("user/{id}")]
+        public async Task<IActionResult> DeleteUser(Guid id)
+        {
+            var success = await _userService.DeleteUserAsync(id);
+            if (!success)
+            {
+                return NotFound(new ApiResponse
+                {
+                    Success = false,
+                    Message = "Không tìm thấy người dùng."
+                });
+            }
+
+            return Ok(new ApiResponse
+            {
+                Success = true,
+                Message = "Xóa người dùng thành công."
+            });
+        }
+
     }
 }

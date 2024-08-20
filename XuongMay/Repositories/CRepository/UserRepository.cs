@@ -25,5 +25,21 @@ namespace XuongMay.Repositories.CRepository
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
         }
+        // lấy tất cả User
+        public async Task<IEnumerable<User>> GetAllUsersAsync()
+        {
+            return await _context.Users.ToListAsync();
+        }
+        // lấy User theo id
+        public async Task<User?> GetUserByIdAsync(Guid id)
+        {
+            return await _context.Users.FindAsync(id);
+        }
+        // xóa người dùng
+        public async Task DeleteUserAsync(User user)
+        {
+            _context.Users.Remove(user);
+            await _context.SaveChangesAsync();
+        }
     }
 }

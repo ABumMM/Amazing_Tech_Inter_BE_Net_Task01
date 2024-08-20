@@ -11,4 +11,3 @@ namespace XuongMay.Repositories.IRepository
         Task<List<Category>> GetAllAsync();
     }
 }
-    

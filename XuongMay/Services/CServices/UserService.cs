@@ -26,6 +26,7 @@ namespace XuongMay.Services.CServices
             _configuration = configuration;
         }
 
+        // xử lý quá trình xác thực người dùng và tạo JWT token
         public async Task<UserResponse?> AuthenticateAsync(LoginRequest request)
         {
             var user = await _userRepository.GetUserByEmailAsync(request.Email);
@@ -66,6 +67,7 @@ namespace XuongMay.Services.CServices
             };
         }
 
+        // đăng ký người dùng mới, mã hóa mật khẩu, ...
         public async Task<RegisterResponse?> RegisterAsync(RegisterRequest request)
         {
             var existingUser = await _userRepository.GetUserByEmailAsync(request.Email);

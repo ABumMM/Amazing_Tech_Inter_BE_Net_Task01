@@ -17,6 +17,7 @@ namespace XuongMay.Controllers
             _categoryService = categoryService;
         }
 
+        // lấy tất cả thể loại
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
@@ -24,6 +25,7 @@ namespace XuongMay.Controllers
             return Ok(response);
         }
 
+        // tạo thể loại
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] CategoryRequest request)
         {
@@ -31,6 +33,7 @@ namespace XuongMay.Controllers
             return Ok(response);
         }
 
+        // lấy thể loại theo id
         [HttpGet("{id}")]
         public async Task<IActionResult> Get(Guid id)
         {
@@ -38,6 +41,7 @@ namespace XuongMay.Controllers
             return Ok(response);
         }
 
+        // sửa thể loại theo id
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(Guid id, [FromBody] CategoryRequest request)
         {
@@ -45,6 +49,7 @@ namespace XuongMay.Controllers
             return Ok(response);
         }
 
+        // xóa thể loại theo id
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(Guid id)
         {

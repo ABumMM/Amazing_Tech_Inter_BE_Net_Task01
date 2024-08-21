@@ -18,6 +18,7 @@ namespace XuongMay.Controllers
             _userService = userService;
         }
 
+        // đăng nhập
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginRequest request)
         {
@@ -35,8 +36,7 @@ namespace XuongMay.Controllers
             return Ok(response);
         }
 
-
-
+        // đăng ký
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] RegisterRequest request)
         {
@@ -55,6 +55,7 @@ namespace XuongMay.Controllers
             }
         }
 
+        // lấy tất cả tài khoản với quyền admin
         [HttpGet("AllUsers")]
         [Authorize(Roles = "admin")]
         public async Task<IActionResult> GetAllUsers()
@@ -63,6 +64,7 @@ namespace XuongMay.Controllers
             return Ok(users);
         }
 
+        // lấy tài khoản theo id với quyền admin
         [HttpGet("user/{id}")]
         [Authorize(Roles = "admin")]
         public async Task<IActionResult> GetUserById(Guid id)
@@ -80,6 +82,7 @@ namespace XuongMay.Controllers
             return Ok(user);
         }
 
+        // sửa tài khoản theo id với quyền admin
         [HttpPut("user/{id}")]
         [Authorize(Roles = "admin")]
         public async Task<IActionResult> UpdateUser(Guid id, [FromBody] UpdateUserRequest request)
@@ -97,6 +100,7 @@ namespace XuongMay.Controllers
             return Ok(user);
         }
 
+        // xóa tài khoản theo id với quyền admin
         [HttpDelete("user/{id}")]
         [Authorize(Roles = "admin")]
         public async Task<IActionResult> DeleteUser(Guid id)

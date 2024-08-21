@@ -16,6 +16,7 @@ namespace XuongMay.Helpers
             private set { _instance = value; }
         }
 
+        // tạo token
         public string CreateToken(string email, string role, IConfiguration config)
         {
             var claims = new List<Claim>
@@ -41,7 +42,7 @@ namespace XuongMay.Helpers
             var tokenHandler = new JwtSecurityTokenHandler();
             var tokenString = tokenHandler.WriteToken(tokenDescriptor);
 
-            return "bearer " + tokenString; // Trả về mã thông báo có tiền tố "bearer" nếu cần
+            return "bearer " + tokenString; // Trả về mã thông báo có tiền tố "bearer" 
         }
     }
 }

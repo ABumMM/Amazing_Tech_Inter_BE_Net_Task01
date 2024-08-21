@@ -17,6 +17,7 @@ namespace XuongMay.Controllers.Employee
             _orderService = orderService;
         }
 
+        // tạo đơn hàng
         [HttpPost]
         public async Task<IActionResult> CreateOrder([FromBody] CreateOrderRequest request)
         {

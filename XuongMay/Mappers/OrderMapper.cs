@@ -5,6 +5,7 @@ namespace XuongMay.Mappers
 {
     public class OrderMapper : IOrderMapper
     {
+        // MapToResponse nhận vào một đối tượng Order và trả về một đối tượng OrderResponse
         public OrderResponse MapToResponse(Order order)
         {
             if (order == null)

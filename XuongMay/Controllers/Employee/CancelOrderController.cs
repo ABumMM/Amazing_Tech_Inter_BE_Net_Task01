@@ -17,6 +17,7 @@ namespace XuongMay.Controllers.Employee
             _orderService = orderService;
         }
 
+        // hủy đơn hàng
         [HttpPut]
         public async Task<IActionResult> CancelOrder([FromBody] UpdateOrderStatusRequest request)
         {

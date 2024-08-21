@@ -17,6 +17,7 @@ namespace XuongMay.Controllers.Admin
             _orderService = orderService;
         }
 
+        // lấy tất cả đơn hàng
         [HttpGet]
         public async Task<IActionResult> GetAllOrders()
         {
@@ -24,6 +25,7 @@ namespace XuongMay.Controllers.Admin
             return Ok(new { Success = true, Data = orders });
         }
 
+        // tạo tất cả đơn hàng
         [HttpPost]
         public async Task<IActionResult> CreateOrder([FromBody] CreateOrderRequest request)
         {
@@ -31,6 +33,7 @@ namespace XuongMay.Controllers.Admin
             return Ok(new { Success = true, Message = "Đã tạo đơn hàng thành công." });
         }
 
+        // xác nhận đơn hàng
         [HttpPut("confirm")]
         public async Task<IActionResult> ConfirmOrder([FromBody] UpdateOrderStatusRequest request)
         {
@@ -38,6 +41,7 @@ namespace XuongMay.Controllers.Admin
             return Ok(new { Success = true, Message = "Đã xác nhận đơn hàng." });
         }
 
+        // hủy đơn hàng
         [HttpPut("cancel")]
         public async Task<IActionResult> CancelOrder([FromBody] UpdateOrderStatusRequest request)
         {

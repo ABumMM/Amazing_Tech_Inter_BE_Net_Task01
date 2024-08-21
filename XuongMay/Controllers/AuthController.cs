@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using XuongMay.Dtos.Requests;
 using XuongMay.Dtos.Responses;
 using XuongMay.Services.CServices;
@@ -27,7 +28,7 @@ namespace XuongMay.Controllers
                 return Unauthorized(new ApiResponse
                 {
                     Success = false,
-                    Message = "Invalid email or password."
+                    Message = "Email hoặc mật khẩu không hợp lệ."
                 });
             }
 
@@ -52,6 +53,69 @@ namespace XuongMay.Controllers
                     Message = ex.Message
                 });
             }
+        }
+
+        [HttpGet("AllUsers")]
+        [Authorize(Roles = "admin")]
+        public async Task<IActionResult> GetAllUsers()
+        {
+            var users = await _userService.GetAllUsersAsync();
+            return Ok(users);
+        }
+
+        [HttpGet("user/{id}")]
+        [Authorize(Roles = "admin")]
+        public async Task<IActionResult> GetUserById(Guid id)
+        {
+            var user = await _userService.GetUserByIdAsync(id);
+            if (user == null)
+            {
+                return NotFound(new ApiResponse
+                {
+                    Success = false,
+                    Message = "Không tìm thấy người dùng."
+                });
+            }
+
+            return Ok(user);
+        }
+
+        [HttpPut("user/{id}")]
+        [Authorize(Roles = "admin")]
+        public async Task<IActionResult> UpdateUser(Guid id, [FromBody] UpdateUserRequest request)
+        {
+            var user = await _userService.UpdateUserAsync(id, request);
+            if (user == null)
+            {
+                return NotFound(new ApiResponse
+                {
+                    Success = false,
+                    Message = "Không tìm thấy người dùng."
+                });
+            }
+
+            return Ok(user);
+        }
+
+        [HttpDelete("user/{id}")]
+        [Authorize(Roles = "admin")]
+        public async Task<IActionResult> DeleteUser(Guid id)
+        {
+            var success = await _userService.DeleteUserAsync(id);
+            if (!success)
+            {
+                return NotFound(new ApiResponse
+                {
+                    Success = false,
+                    Message = "Không tìm thấy người dùng."
+                });
+            }
+
+            return Ok(new ApiResponse
+            {
+                Success = true,
+                Message = "Xóa người dùng thành công."
+            });
         }
     }
 }

@@ -4,6 +4,11 @@ namespace XuongMay.Repositories.IRepository
 {
     public interface IRoleRepository
     {
-        Task<Role?> GetRoleByNameAsync(string roleName);
+        Task AddRoleAsync(Role role);
+        Task<Role?> GetRoleByIdAsync(Guid id);
+        Task<Role?> GetRoleByNameAsync(string name);
+        Task<IEnumerable<Role>> GetAllRolesAsync();
+        Task UpdateRoleAsync(Role role);
+        Task DeleteRoleAsync(Role role);
     }
 }

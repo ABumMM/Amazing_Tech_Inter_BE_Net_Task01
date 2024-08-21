@@ -7,5 +7,9 @@ namespace XuongMay.Services.IServices
     {
         Task<UserResponse?> AuthenticateAsync(LoginRequest request);
         Task<RegisterResponse?> RegisterAsync(RegisterRequest request);
+        Task<IEnumerable<UserResponse>> GetAllUsersAsync();  // Lấy tất cả người dùng
+        Task<UserResponse?> GetUserByIdAsync(Guid id);       // Lấy người dùng theo ID
+        Task<UserResponse?> UpdateUserAsync(Guid id, UpdateUserRequest request);
+        Task<bool> DeleteUserAsync(Guid id);                 // xóa người dùng theo id
     }
 }

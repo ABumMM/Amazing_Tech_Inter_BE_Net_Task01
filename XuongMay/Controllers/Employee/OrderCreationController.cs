@@ -5,9 +5,9 @@ using XuongMay.Services.IServices;
 
 namespace XuongMay.Controllers.Employee
 {
-    [Authorize(Roles = "admin,employeeorder")]
+    [Authorize(Roles = "admin,employee")]
     [ApiController]
-    [Route("api/orders/create")]
+    [Route("api/orders/employee/create")]
     public class OrderCreationController : ControllerBase
     {
         private readonly IOrderService _orderService;

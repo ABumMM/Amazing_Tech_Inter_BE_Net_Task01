@@ -59,6 +59,16 @@
   },
   {
     "ContainingType": "XuongMay.Controllers.AuthController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/Auth/AllUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "XuongMay.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "api/Auth/login",
     "HttpMethod": "POST",
@@ -84,6 +94,59 @@
       {
         "Name": "request",
         "Type": "XuongMay.Dtos.Requests.RegisterRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "XuongMay.Controllers.AuthController",
+    "Method": "GetUserById",
+    "RelativePath": "api/Auth/user/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "XuongMay.Controllers.AuthController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/Auth/user/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "XuongMay.Dtos.Requests.UpdateUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "XuongMay.Controllers.AuthController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/Auth/user/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
         "IsRequired": true
       }
     ],
@@ -171,7 +234,7 @@
   {
     "ContainingType": "XuongMay.Controllers.Employee.OrderCancelController",
     "Method": "CancelOrder",
-    "RelativePath": "api/orders/cancel",
+    "RelativePath": "api/orders/employee/cancel",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -187,7 +250,7 @@
   {
     "ContainingType": "XuongMay.Controllers.Employee.OrderConfirmationController",
     "Method": "ConfirmOrder",
-    "RelativePath": "api/orders/confirm",
+    "RelativePath": "api/orders/employee/confirm",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -203,7 +266,7 @@
   {
     "ContainingType": "XuongMay.Controllers.Employee.OrderCreationController",
     "Method": "CreateOrder",
-    "RelativePath": "api/orders/create",
+    "RelativePath": "api/orders/employee/create",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -211,6 +274,85 @@
       {
         "Name": "request",
         "Type": "XuongMay.Dtos.Requests.CreateOrderRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "XuongMay.Controllers.RoleController",
+    "Method": "CreateRole",
+    "RelativePath": "api/Role",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "XuongMay.Dtos.Requests.CreateRoleRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "XuongMay.Controllers.RoleController",
+    "Method": "GetAllRoles",
+    "RelativePath": "api/Role",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "XuongMay.Controllers.RoleController",
+    "Method": "GetRoleById",
+    "RelativePath": "api/Role/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "XuongMay.Controllers.RoleController",
+    "Method": "UpdateRole",
+    "RelativePath": "api/Role/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "XuongMay.Dtos.Requests.UpdateRoleRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "XuongMay.Controllers.RoleController",
+    "Method": "DeleteRole",
+    "RelativePath": "api/Role/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
         "IsRequired": true
       }
     ],

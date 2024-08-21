@@ -100,5 +100,72 @@ namespace XuongMay.Services.CServices
                 Role = role.Name
             };
         }
+
+        public async Task<IEnumerable<UserResponse>> GetAllUsersAsync()
+        {
+            var users = await _userRepository.GetAllUsersAsync();
+            return users.Select(user => new UserResponse
+            {
+                Id = user.IdUser.ToString(),
+                Email = user.Email,
+                Password = user.Password,
+            });
+        }
+
+        public async Task<UserResponse?> GetUserByIdAsync(Guid id)
+        {
+            var user = await _userRepository.GetUserByIdAsync(id);
+            if (user == null) return null;
+
+            return new UserResponse
+            {
+                Id = user.IdUser.ToString(),
+                Email = user.Email,
+                Password = user.Password,
+            };
+        }
+
+        public async Task<UserResponse?> UpdateUserAsync(Guid id, UpdateUserRequest request)
+        {
+            var user = await _userRepository.GetUserByIdAsync(id);
+            if (user == null)
+            {
+                throw new InvalidOperationException("Người dùng Không tồn tại."); 
+            }
+
+            // Cập nhật thông tin người dùng
+            user.Email = request.Email ?? user.Email;
+            if (!string.IsNullOrEmpty(request.Password))
+            {
+                user.Password = BCrypt.Net.BCrypt.HashPassword(request.Password);
+            }
+            if (request.Role != null)
+            {
+                var role = await _roleRepository.GetRoleByNameAsync(request.Role);
+                if (role == null)
+                {
+                    throw new InvalidOperationException("Quyền không tồn tại.");
+                }
+                user.IdRole = role.IdRole;
+            }
+
+            await _userRepository.UpdateUserAsync(user);
+
+            return new UserResponse
+            {
+                Id = user.IdUser.ToString(),
+                Email = user.Email,
+                Password = user.Password
+            };
+        }
+
+        public async Task<bool> DeleteUserAsync(Guid id)
+        {
+            var user = await _userRepository.GetUserByIdAsync(id);
+            if (user == null) return false;
+
+            await _userRepository.DeleteUserAsync(user);
+            return true;
+        }
     }
 }

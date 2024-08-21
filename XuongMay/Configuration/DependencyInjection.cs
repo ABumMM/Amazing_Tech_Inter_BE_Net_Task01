@@ -15,11 +15,13 @@ namespace XuongMay.Configuration
             services.AddScoped<IRoleRepository, RoleRepository>();
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<IOrderRepository, OrderRepository>();
+            services.AddScoped<IRoleRepository, RoleRepository>();
 
             // Đăng ký các services/
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddScoped<IOrderService, OrderService>();
+            services.AddScoped<IRoleService, RoleService>();
 
             // Đăng ký các mapper
             services.AddScoped<IOrderMapper, OrderMapper>();

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using System.Diagnostics;
+using System.Net;
 using System.Threading.Tasks;
 
 namespace XuongMay.Exceptions
@@ -19,6 +20,15 @@ namespace XuongMay.Exceptions
         public async Task InvokeAsync(HttpContext context)
         {
             var watch = Stopwatch.StartNew();
+
+            // Log Authorization header
+            if (context.Request.Headers.ContainsKey("Authorization"))
+            {
+                _logger.LogInformation("Authorization header: {authorizationHeader}", context.Request.Headers["Authorization"]);
+            }
+
+            await _next(context);
+
 
             // Log request information
             _logger.LogInformation("Handling request: {method} {url}", context.Request.Method, context.Request.Path);

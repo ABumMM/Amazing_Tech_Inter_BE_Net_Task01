@@ -5,9 +5,9 @@ using XuongMay.Services.IServices;
 
 namespace XuongMay.Controllers.Employee
 {
-    [Authorize(Roles = "admin,employeeconfirm")]
+    [Authorize(Roles = "admin,employee")]
     [ApiController]
-    [Route("api/orders/confirm")]
+    [Route("api/orders/employee/confirm")]
     public class OrderConfirmationController : ControllerBase
     {
         private readonly IOrderService _orderService;

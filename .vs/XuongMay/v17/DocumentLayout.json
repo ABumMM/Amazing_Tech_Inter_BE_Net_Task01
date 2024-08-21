@@ -134,8 +134,7 @@
               "RelativeToolTip": "XuongMay\\Controllers\\AuthController.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T08:51:52.223Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T08:51:52.223Z"
             },
             {
               "$type": "Document",
@@ -147,8 +146,7 @@
               "RelativeToolTip": "XuongMay\\Repositories\\RoleRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T10:02:54.136Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T10:02:54.136Z"
             },
             {
               "$type": "Document",
@@ -160,8 +158,7 @@
               "RelativeToolTip": "XuongMay\\Repositories\\UserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T09:26:38.232Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T09:26:38.232Z"
             },
             {
               "$type": "Document",
@@ -173,8 +170,7 @@
               "RelativeToolTip": "XuongMay\\Entity\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T08:48:05.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T08:48:05.884Z"
             },
             {
               "$type": "Document",
@@ -186,8 +182,7 @@
               "RelativeToolTip": "XuongMay\\Entity\\Order.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T08:48:06.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T08:48:06.461Z"
             },
             {
               "$type": "Document",
@@ -212,8 +207,7 @@
               "RelativeToolTip": "XuongMay\\Configuration\\DependencyInjection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T09:23:31.479Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T09:23:31.479Z"
             },
             {
               "$type": "Document",
@@ -225,8 +219,7 @@
               "RelativeToolTip": "XuongMay\\Entity\\Role.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T08:47:59.203Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T08:47:59.203Z"
             },
             {
               "$type": "Document",
@@ -238,8 +231,7 @@
               "RelativeToolTip": "XuongMay\\Dtos\\Requests\\RegisterRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T10:01:24.03Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T10:01:24.03Z"
             },
             {
               "$type": "Document",
@@ -251,8 +243,7 @@
               "RelativeToolTip": "XuongMay\\Dtos\\Requests\\LoginRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T09:24:47.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T09:24:47.955Z"
             },
             {
               "$type": "Document",
@@ -264,8 +255,7 @@
               "RelativeToolTip": "XuongMay\\Dtos\\Responses\\UserResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T09:25:49.727Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T09:25:49.727Z"
             },
             {
               "$type": "Document",
@@ -277,8 +267,7 @@
               "RelativeToolTip": "XuongMay\\Dtos\\Responses\\RegisterResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T10:01:52.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T10:01:52.561Z"
             },
             {
               "$type": "Document",
@@ -290,8 +279,7 @@
               "RelativeToolTip": "XuongMay\\Dtos\\Responses\\ApiResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T09:24:10.957Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T09:24:10.957Z"
             },
             {
               "$type": "Document",
@@ -303,8 +291,7 @@
               "RelativeToolTip": "XuongMay\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAsAAAAAAAAAAAAkwBkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-16T09:54:16.08Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T09:54:16.08Z"
             },
             {
               "$type": "Document",
@@ -316,8 +303,7 @@
               "RelativeToolTip": "XuongMay\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T08:42:19.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T08:42:19.797Z"
             },
             {
               "$type": "Document",
@@ -341,8 +327,7 @@
               "RelativeToolTip": "XuongMay\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAB/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-16T08:42:21.217Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T08:42:21.217Z"
             },
             {
               "$type": "Document",
@@ -353,8 +338,7 @@
               "ToolTip": "C:\\Users\\hotro\\OneDrive\\M\u00E1y t\u00EDnh\\Task01 (1)\\Task01\\XuongMay\\XuongMay\\XuongMay.csproj",
               "RelativeToolTip": "XuongMay\\XuongMay.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-17T03:53:00.733Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T03:53:00.733Z"
             },
             {
               "$type": "Document",

@@ -6,6 +6,6 @@ namespace XuongMay.Dtos.Responses
     {
         public bool Success { get; set; }
         public string Message { get; set; } = string.Empty;
-        public Category Data { get; internal set; }
+        public object? Data { get; set; }
     }
 }

@@ -57,23 +57,23 @@ namespace XuongMay.Services.CServices
         {
             var category = await _categoryRepository.GetByIdAsync(id);
             if (category == null)
-                return new ApiResponse { Success = false, Message = "Category not found" };
+                return new ApiResponse { Success = false, Message = "Loại không tồn tại" };
 
             category.Slug = request.Slug;
             category.Name = request.Name;
 
             await _categoryRepository.UpdateAsync(category);
-            return new ApiResponse { Success = true, Message = "Category updated successfully" };
+            return new ApiResponse { Success = true, Message = "loại này đã được cập nhập thành công" };
         }
 
         public async Task<ApiResponse> DeleteAsync(Guid id)
         {
             var category = await _categoryRepository.GetByIdAsync(id);
             if (category == null)
-                return new ApiResponse { Success = false, Message = "Category not found" };
+                return new ApiResponse { Success = false, Message = "Loại không tồn tại" };
 
             await _categoryRepository.DeleteAsync(category);
-            return new ApiResponse { Success = true, Message = "Category deleted successfully" };
+            return new ApiResponse { Success = true, Message = "Loại này đã được xóa thành công" };
         }
     }
 }

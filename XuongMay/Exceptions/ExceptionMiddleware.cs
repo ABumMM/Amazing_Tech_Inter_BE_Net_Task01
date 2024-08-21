@@ -1,4 +1,6 @@
-﻿using XuongMay.Dtos.Responses;
+﻿using System.Net;
+using System.Text.Json;
+using XuongMay.Dtos.Responses;
 
 namespace XuongMay.Exceptions
 {
@@ -28,7 +30,7 @@ namespace XuongMay.Exceptions
 
         private Task HandleExceptionAsync(HttpContext context, Exception exception)
         {
-            var code = StatusCodes.Status500InternalServerError; // Lỗi 500
+            var code = HttpStatusCode.InternalServerError; // Lỗi 500
 
             var result = new ApiResponse
             {
@@ -37,8 +39,9 @@ namespace XuongMay.Exceptions
             };
 
             context.Response.ContentType = "application/json";
-            context.Response.StatusCode = code;
-            return context.Response.WriteAsJsonAsync(result);
+            context.Response.StatusCode = (int)code;
+            var json = JsonSerializer.Serialize(result);
+            return context.Response.WriteAsync(json);
         }
     }
 }

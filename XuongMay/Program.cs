@@ -7,26 +7,27 @@ using XuongMay.Repositories;
 using XuongMay.Services;
 using XuongMay.Entity;
 using XuongMay.Configuration;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Thêm dịch vụ vào container.
 builder.Services.AddControllers();
 
-// Register the database context
+// Đăng ký context của cơ sở dữ liệu
 builder.Services.AddDbContext<XuongmaybeContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("xuongMay")));
 
-// Register repositories and services
+// Đăng ký các repository và service
 builder.Services.AddConfiguration();
 
-// JWT configuration
+// Cấu hình JWT
 var jwtSettings = builder.Configuration.GetSection("Jwt");
 var secretKey = jwtSettings.GetValue<string>("Secret");
 
 if (string.IsNullOrEmpty(secretKey))
 {
-    throw new InvalidOperationException("JWT Secret is not configured.");
+    throw new InvalidOperationException("JWT Secret chưa được cấu hình.");
 }
 
 var key = Encoding.ASCII.GetBytes(secretKey);
@@ -42,33 +43,77 @@ builder.Services.AddAuthentication(x =>
     x.SaveToken = true;
     x.TokenValidationParameters = new TokenValidationParameters
     {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateLifetime = true,
         ValidateIssuerSigningKey = true,
-        IssuerSigningKey = new SymmetricSecurityKey(key),
-        ValidateIssuer = false,
-        ValidateAudience = false
+        IssuerSigningKey = new SymmetricSecurityKey(key)
     };
 });
 
-// Add Swagger services
+// Thêm chính sách CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
+
+// Thêm dịch vụ Swagger
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "XuongMay API", Version = "v1" });
+
+    // Cấu hình JWT Bearer cho Swagger
+    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        Description = "JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"",
+        Name = "Authorization",
+        In = ParameterLocation.Header,
+        Type = SecuritySchemeType.ApiKey,
+        Scheme = "Bearer"
+    });
+
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            Array.Empty<string>()
+        }
+    });
+});
+
+
 
 var app = builder.Build();
 
-// Configure middleware
+// Cấu hình middleware
 app.UseMiddleware<ExceptionMiddleware>();
 app.UseMiddleware<LoggingMiddleware>();
 
 app.UseAuthentication();
 app.UseAuthorization();
 
-// Enable Swagger middleware
+// Kích hoạt Swagger    
 app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
     c.SwaggerEndpoint("/swagger/v1/swagger.json", "XuongMay API V1");
-    c.RoutePrefix = string.Empty;
+    c.RoutePrefix = string.Empty; // Đặt URL của Swagger UI
 });
+
+app.UseCors("AllowAll");
 
 app.MapControllers();
 

@@ -16,8 +16,5 @@ public partial class Category
 
     public virtual ICollection<Product> Products { get; set; } = new List<Product>();
 
-    public static implicit operator Category(List<CategoryResponse> v)
-    {
-        throw new NotImplementedException();
-    }
+    
 }

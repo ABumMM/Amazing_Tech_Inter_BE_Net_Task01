@@ -40,7 +40,7 @@ namespace XuongMay.Services.CServices
             var key = jwtSettings.GetValue<string>("Secret");
             if (string.IsNullOrEmpty(key))
             {
-                throw new InvalidOperationException("JWT Secret is not configured.");
+                throw new InvalidOperationException("JWT Secret chưa được cấu hình.");
             }
 
             var keyBytes = Encoding.ASCII.GetBytes(key);
@@ -71,13 +71,13 @@ namespace XuongMay.Services.CServices
             var existingUser = await _userRepository.GetUserByEmailAsync(request.Email);
             if (existingUser != null)
             {
-                throw new InvalidOperationException("User already exists.");
+                throw new InvalidOperationException("Người dùng đã tồn tại.");
             }
 
             var role = await _roleRepository.GetRoleByNameAsync(request.Role);
             if (role == null)
             {
-                throw new InvalidOperationException("Role not found.");
+                throw new InvalidOperationException("Quyền không tồn tại.");
             }
 
             var hashedPassword = BCrypt.Net.BCrypt.HashPassword(request.Password);

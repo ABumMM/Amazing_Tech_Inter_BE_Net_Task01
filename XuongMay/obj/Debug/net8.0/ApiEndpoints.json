@@ -1,5 +1,63 @@
 [
   {
+    "ContainingType": "XuongMay.Controllers.Admin.AdminOrderController",
+    "Method": "GetAllOrders",
+    "RelativePath": "api/admin/orders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "XuongMay.Controllers.Admin.AdminOrderController",
+    "Method": "CreateOrder",
+    "RelativePath": "api/admin/orders",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "XuongMay.Dtos.Requests.CreateOrderRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "XuongMay.Controllers.Admin.AdminOrderController",
+    "Method": "CancelOrder",
+    "RelativePath": "api/admin/orders/cancel",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "XuongMay.Dtos.Requests.UpdateOrderStatusRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "XuongMay.Controllers.Admin.AdminOrderController",
+    "Method": "ConfirmOrder",
+    "RelativePath": "api/admin/orders/confirm",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "XuongMay.Dtos.Requests.UpdateOrderStatusRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "XuongMay.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "api/Auth/login",
@@ -105,6 +163,54 @@
       {
         "Name": "id",
         "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "XuongMay.Controllers.Employee.OrderCancelController",
+    "Method": "CancelOrder",
+    "RelativePath": "api/orders/cancel",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "XuongMay.Dtos.Requests.UpdateOrderStatusRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "XuongMay.Controllers.Employee.OrderConfirmationController",
+    "Method": "ConfirmOrder",
+    "RelativePath": "api/orders/confirm",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "XuongMay.Dtos.Requests.UpdateOrderStatusRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "XuongMay.Controllers.Employee.OrderCreationController",
+    "Method": "CreateOrder",
+    "RelativePath": "api/orders/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "XuongMay.Dtos.Requests.CreateOrderRequest",
         "IsRequired": true
       }
     ],

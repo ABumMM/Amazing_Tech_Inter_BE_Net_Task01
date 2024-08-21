@@ -23,7 +23,7 @@ namespace XuongMay.Exceptions
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "An unhandled exception occurred.");
+                _logger.LogError(ex, "Đã xảy ra một ngoại lệ chưa được xử lý.");
                 await HandleExceptionAsync(context, ex);
             }
         }
@@ -35,7 +35,7 @@ namespace XuongMay.Exceptions
             var result = new ApiResponse
             {
                 Success = false,
-                Message = "Internal Server Error"
+                Message = "Lỗi máy chủ nội bộ"
             };
 
             context.Response.ContentType = "application/json";

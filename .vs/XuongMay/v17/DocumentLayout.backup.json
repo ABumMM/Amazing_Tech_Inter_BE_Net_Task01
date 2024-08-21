@@ -198,7 +198,8 @@
               "RelativeToolTip": "XuongMay\\Services\\CServices\\UserService.cs",
               "ViewState": "AgIAAJsAAAAAAAAAAAAswJMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T19:32:11.629Z"
+              "WhenOpened": "2024-08-21T19:32:11.629Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -210,7 +211,8 @@
               "RelativeToolTip": "XuongMay\\Repositories\\IRepository\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T19:32:09.722Z"
+              "WhenOpened": "2024-08-21T19:32:09.722Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -222,7 +224,8 @@
               "RelativeToolTip": "XuongMay\\Repositories\\IRepository\\IRoleRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T19:32:09.185Z"
+              "WhenOpened": "2024-08-21T19:32:09.185Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -234,7 +237,8 @@
               "RelativeToolTip": "XuongMay\\Repositories\\CRepository\\RoleRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T19:32:06.856Z"
+              "WhenOpened": "2024-08-21T19:32:06.856Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -246,7 +250,8 @@
               "RelativeToolTip": "XuongMay\\Repositories\\CRepository\\OrderRepository.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T19:31:59.143Z"
+              "WhenOpened": "2024-08-21T19:31:59.143Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -258,7 +263,8 @@
               "RelativeToolTip": "XuongMay\\Mappers\\IOrderMapper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T19:27:59.836Z"
+              "WhenOpened": "2024-08-21T19:27:59.836Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -270,7 +276,8 @@
               "RelativeToolTip": "XuongMay\\Helpers\\TokenHelper.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAYwCwAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T19:27:31.885Z"
+              "WhenOpened": "2024-08-21T19:27:31.885Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -282,7 +289,8 @@
               "RelativeToolTip": "XuongMay\\Entity\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T19:27:23.298Z"
+              "WhenOpened": "2024-08-21T19:27:23.298Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -294,7 +302,8 @@
               "RelativeToolTip": "XuongMay\\Dtos\\Responses\\OrderResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T19:27:21.8Z"
+              "WhenOpened": "2024-08-21T19:27:21.8Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -306,7 +315,8 @@
               "RelativeToolTip": "XuongMay\\Dtos\\Responses\\ApiResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T19:27:20.769Z"
+              "WhenOpened": "2024-08-21T19:27:20.769Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -318,7 +328,8 @@
               "RelativeToolTip": "XuongMay\\Dtos\\Requests\\RegisterRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T19:27:17.919Z"
+              "WhenOpened": "2024-08-21T19:27:17.919Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -330,7 +341,8 @@
               "RelativeToolTip": "XuongMay\\Dtos\\Requests\\CreateRoleRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T19:27:16.889Z"
+              "WhenOpened": "2024-08-21T19:27:16.889Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -342,7 +354,8 @@
               "RelativeToolTip": "XuongMay\\Dtos\\Requests\\CreateOrderRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T19:27:16.124Z"
+              "WhenOpened": "2024-08-21T19:27:16.124Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -352,7 +365,7 @@
               "RelativeDocumentMoniker": "XuongMay\\Dtos\\Requests\\CategoryRequest.cs",
               "ToolTip": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\ThucTapIT\\Task01\\XuongMay\\XuongMay\\Dtos\\Requests\\CategoryRequest.cs",
               "RelativeToolTip": "XuongMay\\Dtos\\Requests\\CategoryRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-21T19:27:13.566Z",
               "EditorCaption": ""
@@ -367,7 +380,8 @@
               "RelativeToolTip": "XuongMay\\Controllers\\Employee\\OrderCreationController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T19:25:10.709Z"
+              "WhenOpened": "2024-08-21T19:25:10.709Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -379,7 +393,8 @@
               "RelativeToolTip": "XuongMay\\Controllers\\Employee\\OrderConfirmationController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T19:24:59.595Z"
+              "WhenOpened": "2024-08-21T19:24:59.595Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -391,7 +406,8 @@
               "RelativeToolTip": "XuongMay\\Controllers\\Employee\\CancelOrderController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T19:24:45.676Z"
+              "WhenOpened": "2024-08-21T19:24:45.676Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -403,7 +419,8 @@
               "RelativeToolTip": "XuongMay\\Controllers\\CategoryController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T19:22:33.238Z"
+              "WhenOpened": "2024-08-21T19:22:33.238Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -415,7 +432,8 @@
               "RelativeToolTip": "XuongMay\\Controllers\\ProductController.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAAAFIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T19:18:54.603Z"
+              "WhenOpened": "2024-08-21T19:18:54.603Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -427,7 +445,8 @@
               "RelativeToolTip": "XuongMay\\Services\\CServices\\ProductService.cs",
               "ViewState": "AgIAAE0AAAAAAAAAAAAgwGoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T19:18:19.372Z"
+              "WhenOpened": "2024-08-21T19:18:19.372Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -439,7 +458,8 @@
               "RelativeToolTip": "XuongMay\\Services\\IServices\\IProductService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T19:18:01.923Z"
+              "WhenOpened": "2024-08-21T19:18:01.923Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -451,7 +471,8 @@
               "RelativeToolTip": "XuongMay\\Repositories\\CRepository\\ProductRepository.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAowCkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T19:17:31.324Z"
+              "WhenOpened": "2024-08-21T19:17:31.324Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -463,7 +484,8 @@
               "RelativeToolTip": "XuongMay\\Repositories\\IRepository\\IProductRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T19:17:13.691Z"
+              "WhenOpened": "2024-08-21T19:17:13.691Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -475,7 +497,8 @@
               "RelativeToolTip": "XuongMay\\Dtos\\Responses\\ProductResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T19:16:26.027Z"
+              "WhenOpened": "2024-08-21T19:16:26.027Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -487,7 +510,8 @@
               "RelativeToolTip": "XuongMay\\Dtos\\Requests\\ProductRequest.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwBUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T19:16:02.933Z"
+              "WhenOpened": "2024-08-21T19:16:02.933Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -499,7 +523,8 @@
               "RelativeToolTip": "XuongMay\\Entity\\Product.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAA/wBMAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T19:15:11.865Z"
+              "WhenOpened": "2024-08-21T19:15:11.865Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -511,7 +536,8 @@
               "RelativeToolTip": "XuongMay\\Repositories\\CRepository\\CategoryRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T19:14:59.792Z"
+              "WhenOpened": "2024-08-21T19:14:59.792Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -523,7 +549,8 @@
               "RelativeToolTip": "XuongMay\\Mappers\\OrderMapper.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAYwAoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T19:14:58.589Z"
+              "WhenOpened": "2024-08-21T19:14:58.589Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -535,7 +562,8 @@
               "RelativeToolTip": "XuongMay\\Exceptions\\LoggingMiddleware.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAjwBUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T19:14:46.345Z"
+              "WhenOpened": "2024-08-21T19:14:46.345Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -547,7 +575,8 @@
               "RelativeToolTip": "XuongMay\\Controllers\\Admin\\OrderController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T19:03:08.53Z"
+              "WhenOpened": "2024-08-21T19:03:08.53Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -559,7 +588,8 @@
               "RelativeToolTip": "XuongMay\\Controllers\\RoleController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T19:02:58.892Z"
+              "WhenOpened": "2024-08-21T19:02:58.892Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -571,7 +601,8 @@
               "RelativeToolTip": "XuongMay\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T19:02:56.553Z"
+              "WhenOpened": "2024-08-21T19:02:56.553Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -583,7 +614,8 @@
               "RelativeToolTip": "XuongMay\\Configuration\\DependencyInjection.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAQwBkAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T19:01:14.906Z"
+              "WhenOpened": "2024-08-21T19:01:14.906Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -595,7 +627,8 @@
               "RelativeToolTip": "XuongMay\\Exceptions\\ExceptionMiddleware.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAwwCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T19:00:35.24Z"
+              "WhenOpened": "2024-08-21T19:00:35.24Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -607,7 +640,8 @@
               "RelativeToolTip": "XuongMay\\Services\\CServices\\RoleService.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAAAABEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T19:00:06.908Z"
+              "WhenOpened": "2024-08-21T19:00:06.908Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -619,7 +653,8 @@
               "RelativeToolTip": "XuongMay\\Dtos\\Responses\\RoleResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T19:00:01.251Z"
+              "WhenOpened": "2024-08-21T19:00:01.251Z",
+              "EditorCaption": ""
             }
           ]
         }
